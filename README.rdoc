@@ -15,23 +15,26 @@ Yeah I know it is Authlogics intention not to have a generator. But I personally
 
 == Installation
 
-script/plugin install git://github.com/binarylogic/authlogic.git
-script/plugin install git://github.com/masone/authlogic_generator.git
+	$ script/plugin install git://github.com/binarylogic/authlogic.git
+	$ script/plugin install git://github.com/masone/authlogic_generator.git
 
 
 == Usage
 
 1. Run the generator
-   script/generate authlogic
+
+	$ script/generate authlogic
 
 2. Run the database migrations
-   rake db:migrate
+
+	$ rake db:migrate
 
 3. Have a look at the generated stuff...
-   Login is at:          /login
-   Login is at:          /logout
-   Signup is at:         /signup
-   Users account is at:	/account
+
+	Login is at:          /login
+	Login is at:          /logout
+	Signup is at:         /signup
+	Users account is at:	/account
 
 
 == Notes
@@ -40,4 +43,4 @@ script/plugin install git://github.com/masone/authlogic_generator.git
 * The generator will not run properly if you already have a user model
 
 
-Copyright (c) 2009 Christian Felder (www.masone.ch), released under the MIT license
+Copyright (c) 2009 Christian Felder (www.masone.ch)
